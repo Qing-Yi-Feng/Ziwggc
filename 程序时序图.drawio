@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="_4BNOqWanfekURu7S96o">
+    <mxGraphModel dx="1242" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="meeqt15yYlsUEm_wgvOP-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="串口" vertex="1">
+          <mxGeometry height="580" width="100" x="610" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="meeqt15yYlsUEm_wgvOP-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="UI" vertex="1">
+          <mxGeometry height="580" width="100" x="450" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="meeqt15yYlsUEm_wgvOP-14" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="文件" vertex="1">
+          <mxGeometry height="580" width="100" x="780" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="meeqt15yYlsUEm_wgvOP-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;shadow=0;strokeColor=default;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="500.5" y="384.76" as="sourcePoint" />
+            <mxPoint x="659.9999999999998" y="384.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="meeqt15yYlsUEm_wgvOP-17" connectable="0" parent="meeqt15yYlsUEm_wgvOP-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" value="&amp;nbsp;process.spawn&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="-0.178" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="meeqt15yYlsUEm_wgvOP-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="串口读写线程启动" vertex="1">
+          <mxGeometry height="30" width="100" x="660" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="meeqt15yYlsUEm_wgvOP-21" connectable="0" parent="1" style="group;strokeColor=none;fillColor=default;shadow=1;rounded=1;" value="" vertex="1">
+          <mxGeometry height="90" width="130" x="500" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="meeqt15yYlsUEm_wgvOP-15" parent="meeqt15yYlsUEm_wgvOP-21" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="dvui_app 打开窗口" vertex="1">
+          <mxGeometry height="30" width="130" as="geometry" />
+        </mxCell>
+        <mxCell id="meeqt15yYlsUEm_wgvOP-19" parent="meeqt15yYlsUEm_wgvOP-21" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=20;dashed=1;whiteSpace=wrap;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="90" width="130" as="geometry" />
+        </mxCell>
+        <mxCell id="meeqt15yYlsUEm_wgvOP-20" parent="meeqt15yYlsUEm_wgvOP-21" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="绘制UI循环" vertex="1">
+          <mxGeometry height="30" width="130" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="meeqt15yYlsUEm_wgvOP-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="打开串口" vertex="1">
+          <mxGeometry height="30" width="50" x="500" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="meeqt15yYlsUEm_wgvOP-25" parent="1" style="html=1;align=center;verticalAlign=bottom;rounded=1;absoluteArcSize=1;arcSize=20;dashed=1;whiteSpace=wrap;fillColor=default;glass=0;shadow=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="660" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="meeqt15yYlsUEm_wgvOP-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=top;rounded=0;" value="采集循环" vertex="1">
+          <mxGeometry height="30" width="90" x="660" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="meeqt15yYlsUEm_wgvOP-27" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;shadow=0;strokeColor=default;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="659.4999999999998" y="480" as="sourcePoint" />
+            <mxPoint x="500" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="meeqt15yYlsUEm_wgvOP-28" connectable="0" parent="meeqt15yYlsUEm_wgvOP-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" value="&amp;nbsp;refresh&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="-0.178" y="2" as="geometry">
+            <mxPoint x="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="meeqt15yYlsUEm_wgvOP-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="请求更新" vertex="1">
+          <mxGeometry height="30" width="65" x="660" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="meeqt15yYlsUEm_wgvOP-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="保存数据" vertex="1">
+          <mxGeometry height="30" width="65" x="500" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="meeqt15yYlsUEm_wgvOP-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;shadow=0;strokeColor=default;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" target="meeqt15yYlsUEm_wgvOP-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="500.5" y="580" as="sourcePoint" />
+            <mxPoint x="659.9999999999998" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="meeqt15yYlsUEm_wgvOP-32" connectable="0" parent="meeqt15yYlsUEm_wgvOP-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;process.spawn&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.178" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="meeqt15yYlsUEm_wgvOP-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="缓冲区满" vertex="1">
+          <mxGeometry height="30" width="65" x="500" y="540" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
